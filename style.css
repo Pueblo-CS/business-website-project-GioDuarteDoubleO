@@ -1,7 +1,111 @@
+
 body {
-    background-image: url("https://picsum.photos/id/893/3000/3000");
+    background-image: url("https://picsum.photos/id/765/3000/3000");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#header, .nav a, #hero, #cta {
+    color: rgb(221, 219, 219);
+}
+
+#header {
+    background-color: #6f6d70;
+    height: 60px;
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.logo {
+    float:left;
+}
+
+.nav {
+    float:right;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    font-size: 22px;
+    margin: 10% auto 10% auto;
+    width: fit-content;
+}
+
+#hero h1 {
+    font-size: 80px;
+}
+
+#cta {
+    background-color: #0b0808;
+    float: right;
+}
+
+#cta:hover {
+    background-color: rgb(240, 215, 215);
+    color: #938b8f;
+}
+
+.button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#services {
+    background-color: #c6f1e5;
+    padding: 20vh 40px 20vh 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px #828f8e ;
+}
+
+#testimonials {
+    padding: 20vh 40px 20vh 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quote::before, .quote::after {
+    content: "\"";
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.attribution {
+    font-weight: bolder;
+}
+
+.attribution::before {
+    content: "-";
+}
+
+
